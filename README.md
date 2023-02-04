@@ -1,6 +1,6 @@
 # SIMDPS: Smart Industry Monitoring And Disaster Prediction System
 
-An Arduino-based smart industry monitoring system with various gas, ambient, and disaster detection sensors, GPS (Global Positioning System) and Wi-Fi modules, and an alerting mechanism.
+An Arduino-based smart industry monitoring system with various gas, ambient and disaster detection sensors, GPS (Global Positioning System) and Wi-Fi modules, and an alerting mechanism.
 
 ## Technologies
 
@@ -26,6 +26,8 @@ The project is developed and deployed on an Arduino UNO with the following senso
 
 - Flash the code to the Arduino UNO via an appropriate COM port and WiFi credentials.
 
+> Note: Due to memory constraints, the code was split between two Arduino UNOs. An Arduino MEGA, having higher memory capacity, might be a more suitable option.
+
 ## Installation
 
 The Arduino IDE needs the following packages installed either manually or through the GUI package manager
@@ -33,6 +35,13 @@ The Arduino IDE needs the following packages installed either manually or throug
 - [BMP-180](https://github.com/sparkfun/BMP180_Breakout_Arduino_Library)
 - [TinyGPS++](https://github.com/mikalhart/TinyGPSPlus)
 - [DHT11](https://playground.arduino.cc/Main/DHTLib/)
+
+## Circuit Diagram
+<br/>
+
+![Circuit Diagram](https://user-images.githubusercontent.com/67030839/216771136-889ddccf-1ac3-41a0-ba27-aa5f97f2baeb.png)
+
+<br/>
 
 ## Authors
 
